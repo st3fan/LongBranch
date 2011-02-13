@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F800CAE7130852D100BF3483 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F800CAE6130852D100BF3483 /* UIKit.framework */; };
+		F800CAE9130852D100BF3483 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F800CAE8130852D100BF3483 /* Foundation.framework */; };
+		F800CAEB130852D100BF3483 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F800CAEA130852D100BF3483 /* CoreGraphics.framework */; };
+		F800CAF1130852D100BF3483 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F800CAEF130852D100BF3483 /* InfoPlist.strings */; };
+		F800CAF4130852D100BF3483 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CAF3130852D100BF3483 /* main.m */; };
+		F800CAF7130852D100BF3483 /* LongBranchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CAF6130852D100BF3483 /* LongBranchAppDelegate.m */; };
+		F800CAFA130852D100BF3483 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F800CAF8130852D100BF3483 /* MainWindow.xib */; };
+		F800CAFD130852D100BF3483 /* LongBranchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CAFC130852D100BF3483 /* LongBranchViewController.m */; };
+		F800CB00130852D100BF3483 /* LongBranchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F800CAFE130852D100BF3483 /* LongBranchViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F800CAE2130852D100BF3483 /* LongBranch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongBranch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F800CAE6130852D100BF3483 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F800CAE8130852D100BF3483 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F800CAEA130852D100BF3483 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F800CAEE130852D100BF3483 /* LongBranch-Info.plist */ = {isa = PBXFileReference; path = "LongBranch-Info.plist"; sourceTree = "<group>"; };
+		F800CAF0130852D100BF3483 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F800CAF2130852D100BF3483 /* LongBranch-Prefix.pch */ = {isa = PBXFileReference; path = "LongBranch-Prefix.pch"; sourceTree = "<group>"; };
+		F800CAF3130852D100BF3483 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F800CAF5130852D100BF3483 /* LongBranchAppDelegate.h */ = {isa = PBXFileReference; path = LongBranchAppDelegate.h; sourceTree = "<group>"; };
+		F800CAF6130852D100BF3483 /* LongBranchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongBranchAppDelegate.m; sourceTree = "<group>"; };
+		F800CAF9130852D100BF3483 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F800CAFB130852D100BF3483 /* LongBranchViewController.h */ = {isa = PBXFileReference; path = LongBranchViewController.h; sourceTree = "<group>"; };
+		F800CAFC130852D100BF3483 /* LongBranchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongBranchViewController.m; sourceTree = "<group>"; };
+		F800CAFF130852D100BF3483 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LongBranchViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F800CADF130852D100BF3483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F800CAE7130852D100BF3483 /* UIKit.framework in Frameworks */,
+				F800CAE9130852D100BF3483 /* Foundation.framework in Frameworks */,
+				F800CAEB130852D100BF3483 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F800CAD7130852D100BF3483 = {
+			isa = PBXGroup;
+			children = (
+				F800CAEC130852D100BF3483 /* LongBranch */,
+				F800CAE5130852D100BF3483 /* Frameworks */,
+				F800CAE3130852D100BF3483 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F800CAE3130852D100BF3483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F800CAE2130852D100BF3483 /* LongBranch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F800CAE5130852D100BF3483 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F800CAE6130852D100BF3483 /* UIKit.framework */,
+				F800CAE8130852D100BF3483 /* Foundation.framework */,
+				F800CAEA130852D100BF3483 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F800CAEC130852D100BF3483 /* LongBranch */ = {
+			isa = PBXGroup;
+			children = (
+				F800CAF5130852D100BF3483 /* LongBranchAppDelegate.h */,
+				F800CAF6130852D100BF3483 /* LongBranchAppDelegate.m */,
+				F800CAF8130852D100BF3483 /* MainWindow.xib */,
+				F800CAFB130852D100BF3483 /* LongBranchViewController.h */,
+				F800CAFC130852D100BF3483 /* LongBranchViewController.m */,
+				F800CAFE130852D100BF3483 /* LongBranchViewController.xib */,
+				F800CAED130852D100BF3483 /* Supporting Files */,
+			);
+			path = LongBranch;
+			sourceTree = "<group>";
+		};
+		F800CAED130852D100BF3483 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F800CAEE130852D100BF3483 /* LongBranch-Info.plist */,
+				F800CAEF130852D100BF3483 /* InfoPlist.strings */,
+				F800CAF2130852D100BF3483 /* LongBranch-Prefix.pch */,
+				F800CAF3130852D100BF3483 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F800CAE1130852D100BF3483 /* LongBranch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F800CB03130852D100BF3483 /* Build configuration list for PBXNativeTarget "LongBranch" */;
+			buildPhases = (
+				F800CADE130852D100BF3483 /* Sources */,
+				F800CADF130852D100BF3483 /* Frameworks */,
+				F800CAE0130852D100BF3483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LongBranch;
+			productName = LongBranch;
+			productReference = F800CAE2130852D100BF3483 /* LongBranch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F800CAD9130852D100BF3483 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Arentz Consulting";
+			};
+			buildConfigurationList = F800CADC130852D100BF3483 /* Build configuration list for PBXProject "LongBranch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F800CAD7130852D100BF3483;
+			productRefGroup = F800CAE3130852D100BF3483 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F800CAE1130852D100BF3483 /* LongBranch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F800CAE0130852D100BF3483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F800CAF1130852D100BF3483 /* InfoPlist.strings in Resources */,
+				F800CAFA130852D100BF3483 /* MainWindow.xib in Resources */,
+				F800CB00130852D100BF3483 /* LongBranchViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F800CADE130852D100BF3483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F800CAF4130852D100BF3483 /* main.m in Sources */,
+				F800CAF7130852D100BF3483 /* LongBranchAppDelegate.m in Sources */,
+				F800CAFD130852D100BF3483 /* LongBranchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F800CAEF130852D100BF3483 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F800CAF0130852D100BF3483 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F800CAF8130852D100BF3483 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F800CAF9130852D100BF3483 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F800CAFE130852D100BF3483 /* LongBranchViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F800CAFF130852D100BF3483 /* en */,
+			);
+			name = LongBranchViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F800CB01130852D100BF3483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F800CB02130852D100BF3483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F800CB04130852D100BF3483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LongBranch/LongBranch-Prefix.pch";
+				INFOPLIST_FILE = "LongBranch/LongBranch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F800CB05130852D100BF3483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LongBranch/LongBranch-Prefix.pch";
+				INFOPLIST_FILE = "LongBranch/LongBranch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F800CADC130852D100BF3483 /* Build configuration list for PBXProject "LongBranch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F800CB01130852D100BF3483 /* Debug */,
+				F800CB02130852D100BF3483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F800CB03130852D100BF3483 /* Build configuration list for PBXNativeTarget "LongBranch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F800CB04130852D100BF3483 /* Debug */,
+				F800CB05130852D100BF3483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F800CAD9130852D100BF3483 /* Project object */;
+}
