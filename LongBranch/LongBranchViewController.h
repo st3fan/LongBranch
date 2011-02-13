@@ -1,15 +1,21 @@
-//
-//  LongBranchViewController.h
-//  LongBranch
-//
-//  Created by Stefan Arentz on 11-02-13.
-//  Copyright 2011 Arentz Consulting. All rights reserved.
-//
+// LongBranchViewController.h
 
 #import <UIKit/UIKit.h>
+#import "PredictionRequest.h"
 
-@interface LongBranchViewController : UIViewController {
-    
+@interface LongBranchViewController : UIViewController <PredictionRequestDelegate> {
+  @private
+    UILabel* _toHhomeStatusLabel;
+    UILabel* _toOfficeStatusLabel;
+  @private
+    PredictionRequest* _homePredictionRequest;
+    PredictionRequest* _officePredictionRequest;
+    PredictionRequest* _humberLoopPredictionRequest;
+	NSArray* _officePredictions;
+	NSArray* _humberLoopPredictions;
 }
+
+@property (nonatomic,assign) IBOutlet UILabel* toHomeStatusLabel;
+@property (nonatomic,assign) IBOutlet UILabel* toOfficeStatusLabel;
 
 @end

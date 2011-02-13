@@ -16,6 +16,33 @@
 		F800CAFA130852D100BF3483 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F800CAF8130852D100BF3483 /* MainWindow.xib */; };
 		F800CAFD130852D100BF3483 /* LongBranchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CAFC130852D100BF3483 /* LongBranchViewController.m */; };
 		F800CB00130852D100BF3483 /* LongBranchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F800CAFE130852D100BF3483 /* LongBranchViewController.xib */; };
+		F800CB1A130855EB00BF3483 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB07130855EA00BF3483 /* ASIAuthenticationDialog.m */; };
+		F800CB1B130855EB00BF3483 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB0A130855EA00BF3483 /* ASIDataCompressor.m */; };
+		F800CB1C130855EB00BF3483 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB0C130855EA00BF3483 /* ASIDataDecompressor.m */; };
+		F800CB1D130855EB00BF3483 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB0E130855EA00BF3483 /* ASIDownloadCache.m */; };
+		F800CB1E130855EB00BF3483 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB10130855EA00BF3483 /* ASIFormDataRequest.m */; };
+		F800CB1F130855EB00BF3483 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB12130855EA00BF3483 /* ASIHTTPRequest.m */; };
+		F800CB20130855EB00BF3483 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB16130855EA00BF3483 /* ASIInputStream.m */; };
+		F800CB21130855EB00BF3483 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB18130855EA00BF3483 /* ASINetworkQueue.m */; };
+		F800CB24130857DB00BF3483 /* Prediction.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB23130857DB00BF3483 /* Prediction.m */; };
+		F800CB271308586900BF3483 /* PredictionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB261308586900BF3483 /* PredictionRequest.m */; };
+		F800CB2A13085BF200BF3483 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB2913085BF200BF3483 /* Reachability.m */; };
+		F800CB2C13085C0B00BF3483 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F800CB2B13085C0B00BF3483 /* libz.dylib */; };
+		F800CB2E13085C1100BF3483 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F800CB2D13085C1100BF3483 /* CFNetwork.framework */; };
+		F800CB3013085C2000BF3483 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F800CB2F13085C1F00BF3483 /* MobileCoreServices.framework */; };
+		F800CB3213085C2800BF3483 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F800CB3113085C2800BF3483 /* SystemConfiguration.framework */; };
+		F800CB4B13085D4800BF3483 /* XMLDigester.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB3413085D4300BF3483 /* XMLDigester.m */; };
+		F800CB4C13085D4800BF3483 /* XMLDigesterAddObjectRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB3613085D4300BF3483 /* XMLDigesterAddObjectRule.m */; };
+		F800CB4D13085D4800BF3483 /* XMLDigesterCallMethodRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB3813085D4400BF3483 /* XMLDigesterCallMethodRule.m */; };
+		F800CB4E13085D4800BF3483 /* XMLDigesterCallMethodWithAttributeRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB3A13085D4400BF3483 /* XMLDigesterCallMethodWithAttributeRule.m */; };
+		F800CB4F13085D4800BF3483 /* XMLDigesterCallMethodWithElementBodyRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB3C13085D4400BF3483 /* XMLDigesterCallMethodWithElementBodyRule.m */; };
+		F800CB5013085D4800BF3483 /* XMLDigesterCallParamRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB3E13085D4400BF3483 /* XMLDigesterCallParamRule.m */; };
+		F800CB5113085D4800BF3483 /* XMLDigesterObjectCreateRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB4013085D4500BF3483 /* XMLDigesterObjectCreateRule.m */; };
+		F800CB5213085D4800BF3483 /* XMLDigesterPushBodyRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB4213085D4500BF3483 /* XMLDigesterPushBodyRule.m */; };
+		F800CB5313085D4800BF3483 /* XMLDigesterRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB4413085D4600BF3483 /* XMLDigesterRule.m */; };
+		F800CB5413085D4800BF3483 /* XMLDigesterSetNextRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB4613085D4600BF3483 /* XMLDigesterSetNextRule.m */; };
+		F800CB5513085D4800BF3483 /* XMLDigesterSetPropertiesRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB4813085D4700BF3483 /* XMLDigesterSetPropertiesRule.m */; };
+		F800CB5613085D4800BF3483 /* XMLDigesterSetPropertyRule.m in Sources */ = {isa = PBXBuildFile; fileRef = F800CB4A13085D4700BF3483 /* XMLDigesterSetPropertyRule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +50,70 @@
 		F800CAE6130852D100BF3483 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F800CAE8130852D100BF3483 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F800CAEA130852D100BF3483 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F800CAEE130852D100BF3483 /* LongBranch-Info.plist */ = {isa = PBXFileReference; path = "LongBranch-Info.plist"; sourceTree = "<group>"; };
+		F800CAEE130852D100BF3483 /* LongBranch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LongBranch-Info.plist"; sourceTree = "<group>"; };
 		F800CAF0130852D100BF3483 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F800CAF2130852D100BF3483 /* LongBranch-Prefix.pch */ = {isa = PBXFileReference; path = "LongBranch-Prefix.pch"; sourceTree = "<group>"; };
+		F800CAF2130852D100BF3483 /* LongBranch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LongBranch-Prefix.pch"; sourceTree = "<group>"; };
 		F800CAF3130852D100BF3483 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F800CAF5130852D100BF3483 /* LongBranchAppDelegate.h */ = {isa = PBXFileReference; path = LongBranchAppDelegate.h; sourceTree = "<group>"; };
+		F800CAF5130852D100BF3483 /* LongBranchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongBranchAppDelegate.h; sourceTree = "<group>"; };
 		F800CAF6130852D100BF3483 /* LongBranchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongBranchAppDelegate.m; sourceTree = "<group>"; };
 		F800CAF9130852D100BF3483 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		F800CAFB130852D100BF3483 /* LongBranchViewController.h */ = {isa = PBXFileReference; path = LongBranchViewController.h; sourceTree = "<group>"; };
+		F800CAFB130852D100BF3483 /* LongBranchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongBranchViewController.h; sourceTree = "<group>"; };
 		F800CAFC130852D100BF3483 /* LongBranchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongBranchViewController.m; sourceTree = "<group>"; };
 		F800CAFF130852D100BF3483 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LongBranchViewController.xib; sourceTree = "<group>"; };
+		F800CB06130855EA00BF3483 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		F800CB07130855EA00BF3483 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		F800CB08130855EA00BF3483 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		F800CB09130855EA00BF3483 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		F800CB0A130855EA00BF3483 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		F800CB0B130855EA00BF3483 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		F800CB0C130855EA00BF3483 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		F800CB0D130855EA00BF3483 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		F800CB0E130855EA00BF3483 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		F800CB0F130855EA00BF3483 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		F800CB10130855EA00BF3483 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		F800CB11130855EA00BF3483 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		F800CB12130855EA00BF3483 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		F800CB13130855EA00BF3483 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		F800CB14130855EA00BF3483 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		F800CB15130855EA00BF3483 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		F800CB16130855EA00BF3483 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		F800CB17130855EA00BF3483 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		F800CB18130855EA00BF3483 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		F800CB19130855EA00BF3483 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		F800CB22130857DB00BF3483 /* Prediction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prediction.h; sourceTree = "<group>"; };
+		F800CB23130857DB00BF3483 /* Prediction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Prediction.m; sourceTree = "<group>"; };
+		F800CB251308586900BF3483 /* PredictionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredictionRequest.h; sourceTree = "<group>"; };
+		F800CB261308586900BF3483 /* PredictionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredictionRequest.m; sourceTree = "<group>"; };
+		F800CB2813085BF200BF3483 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		F800CB2913085BF200BF3483 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		F800CB2B13085C0B00BF3483 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F800CB2D13085C1100BF3483 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F800CB2F13085C1F00BF3483 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F800CB3113085C2800BF3483 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F800CB3313085D4300BF3483 /* XMLDigester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigester.h; sourceTree = "<group>"; };
+		F800CB3413085D4300BF3483 /* XMLDigester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigester.m; sourceTree = "<group>"; };
+		F800CB3513085D4300BF3483 /* XMLDigesterAddObjectRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterAddObjectRule.h; sourceTree = "<group>"; };
+		F800CB3613085D4300BF3483 /* XMLDigesterAddObjectRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterAddObjectRule.m; sourceTree = "<group>"; };
+		F800CB3713085D4300BF3483 /* XMLDigesterCallMethodRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterCallMethodRule.h; sourceTree = "<group>"; };
+		F800CB3813085D4400BF3483 /* XMLDigesterCallMethodRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterCallMethodRule.m; sourceTree = "<group>"; };
+		F800CB3913085D4400BF3483 /* XMLDigesterCallMethodWithAttributeRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterCallMethodWithAttributeRule.h; sourceTree = "<group>"; };
+		F800CB3A13085D4400BF3483 /* XMLDigesterCallMethodWithAttributeRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterCallMethodWithAttributeRule.m; sourceTree = "<group>"; };
+		F800CB3B13085D4400BF3483 /* XMLDigesterCallMethodWithElementBodyRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterCallMethodWithElementBodyRule.h; sourceTree = "<group>"; };
+		F800CB3C13085D4400BF3483 /* XMLDigesterCallMethodWithElementBodyRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterCallMethodWithElementBodyRule.m; sourceTree = "<group>"; };
+		F800CB3D13085D4400BF3483 /* XMLDigesterCallParamRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterCallParamRule.h; sourceTree = "<group>"; };
+		F800CB3E13085D4400BF3483 /* XMLDigesterCallParamRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterCallParamRule.m; sourceTree = "<group>"; };
+		F800CB3F13085D4500BF3483 /* XMLDigesterObjectCreateRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterObjectCreateRule.h; sourceTree = "<group>"; };
+		F800CB4013085D4500BF3483 /* XMLDigesterObjectCreateRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterObjectCreateRule.m; sourceTree = "<group>"; };
+		F800CB4113085D4500BF3483 /* XMLDigesterPushBodyRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterPushBodyRule.h; sourceTree = "<group>"; };
+		F800CB4213085D4500BF3483 /* XMLDigesterPushBodyRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterPushBodyRule.m; sourceTree = "<group>"; };
+		F800CB4313085D4500BF3483 /* XMLDigesterRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterRule.h; sourceTree = "<group>"; };
+		F800CB4413085D4600BF3483 /* XMLDigesterRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterRule.m; sourceTree = "<group>"; };
+		F800CB4513085D4600BF3483 /* XMLDigesterSetNextRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterSetNextRule.h; sourceTree = "<group>"; };
+		F800CB4613085D4600BF3483 /* XMLDigesterSetNextRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterSetNextRule.m; sourceTree = "<group>"; };
+		F800CB4713085D4600BF3483 /* XMLDigesterSetPropertiesRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterSetPropertiesRule.h; sourceTree = "<group>"; };
+		F800CB4813085D4700BF3483 /* XMLDigesterSetPropertiesRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterSetPropertiesRule.m; sourceTree = "<group>"; };
+		F800CB4913085D4700BF3483 /* XMLDigesterSetPropertyRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDigesterSetPropertyRule.h; sourceTree = "<group>"; };
+		F800CB4A13085D4700BF3483 /* XMLDigesterSetPropertyRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDigesterSetPropertyRule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +121,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F800CB3213085C2800BF3483 /* SystemConfiguration.framework in Frameworks */,
+				F800CB3013085C2000BF3483 /* MobileCoreServices.framework in Frameworks */,
+				F800CB2E13085C1100BF3483 /* CFNetwork.framework in Frameworks */,
+				F800CB2C13085C0B00BF3483 /* libz.dylib in Frameworks */,
 				F800CAE7130852D100BF3483 /* UIKit.framework in Frameworks */,
 				F800CAE9130852D100BF3483 /* Foundation.framework in Frameworks */,
 				F800CAEB130852D100BF3483 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +137,10 @@
 		F800CAD7130852D100BF3483 = {
 			isa = PBXGroup;
 			children = (
+				F800CB3113085C2800BF3483 /* SystemConfiguration.framework */,
+				F800CB2F13085C1F00BF3483 /* MobileCoreServices.framework */,
+				F800CB2D13085C1100BF3483 /* CFNetwork.framework */,
+				F800CB2B13085C0B00BF3483 /* libz.dylib */,
 				F800CAEC130852D100BF3483 /* LongBranch */,
 				F800CAE5130852D100BF3483 /* Frameworks */,
 				F800CAE3130852D100BF3483 /* Products */,
@@ -79,6 +168,52 @@
 		F800CAEC130852D100BF3483 /* LongBranch */ = {
 			isa = PBXGroup;
 			children = (
+				F800CB3313085D4300BF3483 /* XMLDigester.h */,
+				F800CB3413085D4300BF3483 /* XMLDigester.m */,
+				F800CB3513085D4300BF3483 /* XMLDigesterAddObjectRule.h */,
+				F800CB3613085D4300BF3483 /* XMLDigesterAddObjectRule.m */,
+				F800CB3713085D4300BF3483 /* XMLDigesterCallMethodRule.h */,
+				F800CB3813085D4400BF3483 /* XMLDigesterCallMethodRule.m */,
+				F800CB3913085D4400BF3483 /* XMLDigesterCallMethodWithAttributeRule.h */,
+				F800CB3A13085D4400BF3483 /* XMLDigesterCallMethodWithAttributeRule.m */,
+				F800CB3B13085D4400BF3483 /* XMLDigesterCallMethodWithElementBodyRule.h */,
+				F800CB3C13085D4400BF3483 /* XMLDigesterCallMethodWithElementBodyRule.m */,
+				F800CB3D13085D4400BF3483 /* XMLDigesterCallParamRule.h */,
+				F800CB3E13085D4400BF3483 /* XMLDigesterCallParamRule.m */,
+				F800CB3F13085D4500BF3483 /* XMLDigesterObjectCreateRule.h */,
+				F800CB4013085D4500BF3483 /* XMLDigesterObjectCreateRule.m */,
+				F800CB4113085D4500BF3483 /* XMLDigesterPushBodyRule.h */,
+				F800CB4213085D4500BF3483 /* XMLDigesterPushBodyRule.m */,
+				F800CB4313085D4500BF3483 /* XMLDigesterRule.h */,
+				F800CB4413085D4600BF3483 /* XMLDigesterRule.m */,
+				F800CB4513085D4600BF3483 /* XMLDigesterSetNextRule.h */,
+				F800CB4613085D4600BF3483 /* XMLDigesterSetNextRule.m */,
+				F800CB4713085D4600BF3483 /* XMLDigesterSetPropertiesRule.h */,
+				F800CB4813085D4700BF3483 /* XMLDigesterSetPropertiesRule.m */,
+				F800CB4913085D4700BF3483 /* XMLDigesterSetPropertyRule.h */,
+				F800CB4A13085D4700BF3483 /* XMLDigesterSetPropertyRule.m */,
+				F800CB2813085BF200BF3483 /* Reachability.h */,
+				F800CB2913085BF200BF3483 /* Reachability.m */,
+				F800CB06130855EA00BF3483 /* ASIAuthenticationDialog.h */,
+				F800CB07130855EA00BF3483 /* ASIAuthenticationDialog.m */,
+				F800CB08130855EA00BF3483 /* ASICacheDelegate.h */,
+				F800CB09130855EA00BF3483 /* ASIDataCompressor.h */,
+				F800CB0A130855EA00BF3483 /* ASIDataCompressor.m */,
+				F800CB0B130855EA00BF3483 /* ASIDataDecompressor.h */,
+				F800CB0C130855EA00BF3483 /* ASIDataDecompressor.m */,
+				F800CB0D130855EA00BF3483 /* ASIDownloadCache.h */,
+				F800CB0E130855EA00BF3483 /* ASIDownloadCache.m */,
+				F800CB0F130855EA00BF3483 /* ASIFormDataRequest.h */,
+				F800CB10130855EA00BF3483 /* ASIFormDataRequest.m */,
+				F800CB11130855EA00BF3483 /* ASIHTTPRequest.h */,
+				F800CB12130855EA00BF3483 /* ASIHTTPRequest.m */,
+				F800CB13130855EA00BF3483 /* ASIHTTPRequestConfig.h */,
+				F800CB14130855EA00BF3483 /* ASIHTTPRequestDelegate.h */,
+				F800CB15130855EA00BF3483 /* ASIInputStream.h */,
+				F800CB16130855EA00BF3483 /* ASIInputStream.m */,
+				F800CB17130855EA00BF3483 /* ASINetworkQueue.h */,
+				F800CB18130855EA00BF3483 /* ASINetworkQueue.m */,
+				F800CB19130855EA00BF3483 /* ASIProgressDelegate.h */,
 				F800CAF5130852D100BF3483 /* LongBranchAppDelegate.h */,
 				F800CAF6130852D100BF3483 /* LongBranchAppDelegate.m */,
 				F800CAF8130852D100BF3483 /* MainWindow.xib */,
@@ -86,6 +221,10 @@
 				F800CAFC130852D100BF3483 /* LongBranchViewController.m */,
 				F800CAFE130852D100BF3483 /* LongBranchViewController.xib */,
 				F800CAED130852D100BF3483 /* Supporting Files */,
+				F800CB22130857DB00BF3483 /* Prediction.h */,
+				F800CB23130857DB00BF3483 /* Prediction.m */,
+				F800CB251308586900BF3483 /* PredictionRequest.h */,
+				F800CB261308586900BF3483 /* PredictionRequest.m */,
 			);
 			path = LongBranch;
 			sourceTree = "<group>";
@@ -167,6 +306,29 @@
 				F800CAF4130852D100BF3483 /* main.m in Sources */,
 				F800CAF7130852D100BF3483 /* LongBranchAppDelegate.m in Sources */,
 				F800CAFD130852D100BF3483 /* LongBranchViewController.m in Sources */,
+				F800CB1A130855EB00BF3483 /* ASIAuthenticationDialog.m in Sources */,
+				F800CB1B130855EB00BF3483 /* ASIDataCompressor.m in Sources */,
+				F800CB1C130855EB00BF3483 /* ASIDataDecompressor.m in Sources */,
+				F800CB1D130855EB00BF3483 /* ASIDownloadCache.m in Sources */,
+				F800CB1E130855EB00BF3483 /* ASIFormDataRequest.m in Sources */,
+				F800CB1F130855EB00BF3483 /* ASIHTTPRequest.m in Sources */,
+				F800CB20130855EB00BF3483 /* ASIInputStream.m in Sources */,
+				F800CB21130855EB00BF3483 /* ASINetworkQueue.m in Sources */,
+				F800CB24130857DB00BF3483 /* Prediction.m in Sources */,
+				F800CB271308586900BF3483 /* PredictionRequest.m in Sources */,
+				F800CB2A13085BF200BF3483 /* Reachability.m in Sources */,
+				F800CB4B13085D4800BF3483 /* XMLDigester.m in Sources */,
+				F800CB4C13085D4800BF3483 /* XMLDigesterAddObjectRule.m in Sources */,
+				F800CB4D13085D4800BF3483 /* XMLDigesterCallMethodRule.m in Sources */,
+				F800CB4E13085D4800BF3483 /* XMLDigesterCallMethodWithAttributeRule.m in Sources */,
+				F800CB4F13085D4800BF3483 /* XMLDigesterCallMethodWithElementBodyRule.m in Sources */,
+				F800CB5013085D4800BF3483 /* XMLDigesterCallParamRule.m in Sources */,
+				F800CB5113085D4800BF3483 /* XMLDigesterObjectCreateRule.m in Sources */,
+				F800CB5213085D4800BF3483 /* XMLDigesterPushBodyRule.m in Sources */,
+				F800CB5313085D4800BF3483 /* XMLDigesterRule.m in Sources */,
+				F800CB5413085D4800BF3483 /* XMLDigesterSetNextRule.m in Sources */,
+				F800CB5513085D4800BF3483 /* XMLDigesterSetPropertiesRule.m in Sources */,
+				F800CB5613085D4800BF3483 /* XMLDigesterSetPropertyRule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +403,7 @@
 				GCC_PREFIX_HEADER = "LongBranch/LongBranch-Prefix.pch";
 				INFOPLIST_FILE = "LongBranch/LongBranch-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -255,6 +418,7 @@
 				GCC_PREFIX_HEADER = "LongBranch/LongBranch-Prefix.pch";
 				INFOPLIST_FILE = "LongBranch/LongBranch-Info.plist";
 				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
