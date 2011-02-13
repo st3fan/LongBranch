@@ -50,8 +50,6 @@
 		return;
 	}
 	
-	NSLog(@"%@", [request responseString]);
-
     XMLDigester* digester = [XMLDigester digesterWithData: [request responseData]];
 
 	[digester addRule:
